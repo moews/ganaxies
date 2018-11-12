@@ -107,9 +107,11 @@ def run_pipeline():
     fake_128 = stackgan_G(fake_64)
 
     # save the images --------------------------------
-    vutils.save_image(fake_128.data,
-            'fake_sample_{}.png'.format(r_seed),
-            normalize=True)
+    image_range = len(fake_128.data)
+    for i in range(1, image_range + 1):
+        vutils.save_image(fake_128.data[i],
+                          'fake_sample_{}.png'.format(i),
+                          normalize=True)
 
 if __name__ == "__main__":
     run_pipeline()
