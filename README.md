@@ -1,4 +1,4 @@
-# Forging new worlds
+# Forging new worlds (GANaxies)
 ### High-resolution synthetic galaxies with chained generative adversarial networks
 
 <img src="/logo.png" alt="logo" width="200px"/>
