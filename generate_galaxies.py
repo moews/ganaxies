@@ -108,7 +108,7 @@ def run_pipeline():
 
     # save the images --------------------------------
     vutils.save_image(fake_128.data,
-            'samples/fake_sample_{}.png'.format(r_seed),
+            'fake_sample_{}.png'.format(r_seed),
             normalize=True)
 
 if __name__ == "__main__":
