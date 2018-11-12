@@ -108,9 +108,9 @@ def run_pipeline():
 
     # save the images --------------------------------
     image_range = len(fake_128.data)
-    for i in range(1, image_range + 1):
+    for i in range(0, image_range):
         vutils.save_image(fake_128.data[i],
-                          'fake_sample_{}.png'.format(i),
+                          'sample_{}.png'.format(i),
                           normalize=True)
 
 if __name__ == "__main__":
