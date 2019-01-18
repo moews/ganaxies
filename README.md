@@ -30,3 +30,7 @@ If you want to create a specific number of synthetic samples, modify the `batchS
 ```shell
 python generate_galaxies.py --batchSize 42
 ```
+
+Below, you can see a few examples of galaxy images created with the pre-trained models.
+
+<img src="/logo.png" alt="images/logo" width="600px"/>
