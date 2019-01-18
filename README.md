@@ -1,7 +1,7 @@
 # Forging new worlds (GANaxies)
 ### High-resolution synthetic galaxies with chained generative adversarial networks
 
-<img src="/logo.png" alt="logo" width="200px"/>
+<img src="/images/logo.png" alt="logo" width="200px"/>
 
 This repository contains supplementary code for the paper _Forging new worlds: high-resolution synthetic galaxies with chained generative adversarial networks_, a pre-print version of which can be found on arXiv ([arXiv:1811.03081](https://arxiv.org/abs/1811.03081)).
 
