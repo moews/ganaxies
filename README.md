@@ -5,7 +5,7 @@
 
 This repository contains supplementary code for the paper _Forging new worlds: high-resolution synthetic galaxies with chained generative adversarial networks_ published in [MNRAS](https://doi.org/10.1093/mnras/stz602), a preprint version of which can be found on [arXiv](https://arxiv.org/abs/1811.03081).
 
-For an easy application, this repository provides the trained models for generating galaxies using our chained GAN model. Please note that you will need a functioning [PyTorch](https://pytorch.org/) installation to make use of the code.
+For an easily accessible application, this repository provides the trained models for generating galaxies using our chained GAN model. Please note that you will need a functioning [PyTorch](https://pytorch.org/) installation to make use of the code.
 
 ### File description
 
